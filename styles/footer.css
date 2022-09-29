@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    margin: 2rem;
+}
+
+.dev__name, .dev__year {
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    line-height: 1.2rem;
+}

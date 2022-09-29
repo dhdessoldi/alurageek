@@ -22,11 +22,16 @@
 .banner__button {
     font-family: var(--Raleway);
     width: 38%;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: var(--azul);
     color: var(--branco);
     font-weight: 600;
     font-size: 0.875rem;
+    border: none;
+}
 
+.banner__button:hover {
+    background-color: var(--azul-hover);
+    transition: 0.5s;
 }
 

@@ -6,6 +6,7 @@
 
 .header__img {
     padding: 1rem;
+    width: 60%;
 }
 
 .header__button {
@@ -17,6 +18,11 @@
     color: var(--azul);
     font-weight: 600;
     font-size: 0.875rem;
+}
+
+.header__button:hover {
+    background-color: var(--azul-claro-hover);
+    transition: 0.5s;
 }
 
 .search__img {
