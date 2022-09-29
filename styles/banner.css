@@ -1,0 +1,32 @@
+.banner {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../img/background.png");
+    background-size: 100%;
+    padding: 1rem;
+}
+
+.banner__title {
+    font-weight: 700;
+    color: var(--branco);
+    margin-bottom: 1.5rem;
+    font-size: 1.375rem;
+
+}
+
+.banner__text {
+    font-weight: 500;
+    color: var(--branco);
+    margin-bottom: 3.5rem;
+    font-size: 0.875rem;
+}
+
+.banner__button {
+    font-family: var(--Raleway);
+    width: 38%;
+    padding: 0.5rem;
+    background-color: var(--azul);
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 0.875rem;
+
+}
+

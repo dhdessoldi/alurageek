@@ -1,0 +1,17 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+
+
+:root {
+    --cinza-claro: #E5E5E5;
+    --branco: #FFFFFF;
+    --azul-claro: #EAF2FD;
+    --azul: #2A7AE4;
+    --cinza-escuro: #464646;
+    --fonte-principal: "Raleway"
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
