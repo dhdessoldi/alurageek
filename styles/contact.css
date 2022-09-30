@@ -12,7 +12,7 @@
 }
 
 .about__list li {
-    padding: 0.5rem 0;
+    padding: 1rem 0;
 }
 
 .about__link {
@@ -74,6 +74,45 @@
 .contact__button:hover {
     background-color: var(--azul-hover);
     transition: 0.5s;
+}
+
+@media screen and (min-width:768px) {
+
+    .contact {
+        display: flex;
+        padding: 2rem;
+    }
+
+    .about {
+        text-align: left;
+        width: 60%;
+    }
+
+    .about__logo {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 9rem 0 7.5rem;
+    }
+
+    .about__logo {
+        width: auto;
+        max-height: 50px;
+    }
+
+    .contact__button {
+        max-width: 165px;
+    }
+
+    .contact__form {
+        margin-right: 7.5rem;
+    }
 }
 
 

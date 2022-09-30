@@ -10,7 +10,7 @@
 }
 
 .header__button {
-    font-family: var(--Raleway);
+    font-family: var(--fonte-principal);
     align-self: center;
     padding: 0.5rem 2.5rem;
     border: 1px solid var(--azul);
@@ -27,4 +27,48 @@
 
 .search__img {
     margin-right: 1rem;
+}
+
+.header__search {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+
+    .search__img {
+        display: none;
+    }
+
+    .header__search {
+        display: block;
+        height: 40px;
+        width: 33%;
+        margin-right: 10rem;
+        border: none;
+        align-self: center;
+        background-image: url(../img/Lupa-cinza.svg);
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }
+
+    .header__search::placeholder {
+        font-family: var(--fonte-principal);
+    }
+
+    .header__img {
+        margin-left: 1rem;
+    }
+
+    .header__button {
+        padding: 0.5rem 3.5rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header {
+        padding: 1rem 5rem;
+    }
+
+    
 }
