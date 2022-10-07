@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Adicionar Produtos</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="header__home"><img src="img/Logo.png" alt="Logo da AluraGeek" class="header__img"></a>
+        <input type="text" name="search" id="search" class="header__search" placeholder="O que deseja encontrar?">
+        <input type="button" value="Menu administrador" class="header__button">
+        <img src="img/Lupa.svg" alt="Imagem de uma lupa para Botão de Pesquisar" class="search__img">
+    </header>
+    <section class="add__product-div">
+        <div class="add__product-form">
+            <h3 class="add__product-title">Adicionar novo produto</h3>
+            <input type="text" disabled name="product__url-disabled" id="product__url-disabled" class="add__product-disabled" placeholder="URL da imagem">
+            <input type="text" name="product__url" id="product__url" class="add__product" placeholder="">
+            <input type="text" disabled name="product__category-disabled" id="product__category-disabled" class="add__product-disabled" placeholder="Categoria">
+            <input type="text" name="product__category" id="product__category" class="add__product" placeholder="">
+            <input type="text" disabled name="product__name-disabled" id="product__name-disabled" class="add__product-disabled" placeholder="Nome do produto">
+            <input type="text" name="product__name" id="product__name" class="add__product" placeholder="">
+            <input type="text" disabled name="product__price-disabled" id="product__price-disabled" class="add__product-disabled" placeholder="Preço do produto">
+            <input type="text" name="product__price" id="product__price" class="add__product" placeholder="">
+            <textarea rows="4" name="product__description" id="product__description" class="add__product-description" placeholder="Descrição do produto"></textarea>
+            <input type="submit" value="Adicionar produto" class="add__product-button">
+        </div>
+    </section>
+    <section class="contact">
+        <div class="about">
+            <img src="img/Logo.png" alt="Logo da AluraGeek" class="about__logo">
+            <ul class="about__list">
+                <li><a href="#" class="about__link">Quem somos nós</a></li>
+                <li><a href="#" class="about__link">Política de Privacidade</a></li>
+                <li><a href="#" class="about__link">Programa fidelidade</a></li>
+                <li><a href="#" class="about__link">Nossas Lojas</a></li>
+                <li><a href="#" class="about__link">Quero ser franqueado</a></li>
+                <li><a href="#" class="about__link">Anuncie aqui</a></li>
+            </ul>
+        </div>
+        <div class="contact__form">
+            <h3 class="contact__title">Fale conosco</h3>
+            <input type="text" disabled name="name-disabled" id="name-disabled" class="contact__name-disabled" placeholder="Nome">
+            <input type="text" name="name" id="name" class="contact__name" placeholder="">
+            <textarea rows="4" name="text" id="text" class="contact__text" placeholder="Escreva sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="contact__button">
+        </div>    
+    </section>
+    <footer class="footer">
+        <p class="dev__name">Desenvolvido por Daniel Hermano Dessoldi<br></p>
+        <p class="dev__year">2022</p>
+    </footer>
+ 
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__home"><img src="img/Logo.png" alt="Logo da AluraGeek" class="header__img"></a>
+        <input type="text" name="search" id="search" class="header__search" placeholder="O que deseja encontrar?">
+        <img src="img/Lupa.svg" alt="Imagem de uma lupa para Botão de Pesquisar" class="search__img">
+    </header>
+
+    <section class="login">
+        <h3 class="login__title">Iniciar Sessão</h3>
+            <input type="email" name="email" id="email" class="login__email" placeholder="Escreva seu e-mail">
+            <input type="password" name="password" id="password" class="login__password" placeholder="Escreva sua senha">
+            <input type="submit" value="Entrar" class="login__button">
+    </section>
+
+    <section class="contact">
+        <div class="about">
+            <img src="img/Logo.png" alt="Logo da AluraGeek" class="about__logo">
+            <ul class="about__list">
+                <li><a href="#" class="about__link">Quem somos nós</a></li>
+                <li><a href="#" class="about__link">Política de Privacidade</a></li>
+                <li><a href="#" class="about__link">Programa fidelidade</a></li>
+                <li><a href="#" class="about__link">Nossas Lojas</a></li>
+                <li><a href="#" class="about__link">Quero ser franqueado</a></li>
+                <li><a href="#" class="about__link">Anuncie aqui</a></li>
+            </ul>
+        </div>
+        <div class="contact__form">
+            <h3 class="contact__title">Fale conosco</h3>
+            <input type="text" disabled name="name-disabled" id="name-disabled" class="contact__name-disabled" placeholder="Nome">
+            <input type="text" name="name" id="name" class="contact__name" placeholder="">
+            <textarea rows="4" name="text" id="text" class="contact__text" placeholder="Escreva sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="contact__button">
+        </div>    
+    </section>
+    <footer class="footer">
+        <p class="dev__name">Desenvolvido por Daniel Hermano Dessoldi<br></p>
+        <p class="dev__year">2022</p>
+    </footer>  
+</body>
+</html>

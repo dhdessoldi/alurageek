@@ -3,6 +3,8 @@
 @import url(styles/products.css);
 @import url(styles/contact.css);
 @import url(styles/footer.css);
+@import url(styles/login.css);
+@import url(styles/add.css);
 
 
 :root {
@@ -12,6 +14,7 @@
     --azul: #2A7AE4;
     --cinza-escuro: #464646;
     --cinza-borda: #C8C8C8;
+    --cinza-placeholder: #A2A2A2;
     --azul-hover: #5595E9;
     --azul-claro-hover: #D4E4FA;
     --fonte-principal: "Raleway";

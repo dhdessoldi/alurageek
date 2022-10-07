@@ -1,52 +1,38 @@
-.contact {
-    padding: 1rem;
-    background-color: var(--azul-claro);
+.add__product-div {
+    display: flex;
+    justify-content: center;
 }
 
-.about {
-    text-align: center;
+.add__product-form {
+    margin: 1rem;
 }
 
-.about__logo {
-    width: 40%;
-}
-
-.about__list li {
-    padding: 1rem 0;
-}
-
-.about__link {
-    color: var(--cinza-escuro);
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.contact__title {
-    margin-top: 1rem;
-    padding-bottom: 0.5rem;
+.add__product-title {
+    margin: 1rem 0;
     color: var(--cinza-escuro);
     font-weight: 700;
+    font-size: 1.375rem;
 }
 
-.contact__name-disabled {
+.add__product-disabled {
     width: 90%;
     padding: 0.5rem 1rem;
     border: none;
     background-color: var(--branco);
 }
 
-.contact__name {
-    width: 90%;
-    padding: 0.5rem 1rem;
+.add__product {
+    width: 100%;
+    padding: 0.5rem 0;
     border: none;
     border-bottom: 1px solid var(--cinza-borda);
     background-color: var(--branco);
     margin-bottom: 1rem;
 }
 
-.contact__text {
-    width: 90%;
-    padding: 0.5rem 1rem;
+.add__product-description {
+    width: 100%;
+    padding: 0.5rem 0;
     border: none;
     border-bottom: 1px solid var(--cinza-borda);
     background-color: var(--branco);
@@ -54,30 +40,34 @@
     text-align: left;
 }
 
-.contact__name-disabled::placeholder, .contact__text::placeholder {
+.add__product-disabled::placeholder, .add__product-description::placeholder {
     font-family: var(--fonte-principal);
     font-size: 1rem;
     color: var(--cinza-placeholder);
 }
 
-.contact__button {
+.add__product-button {
     font-family: var(--Raleway);
-    width: 45%;
+    width: 100%;
     padding: 1rem;
     background-color: var(--azul);
     color: var(--branco);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.875rem;
     border: none;
-    margin-top: 0.3rem;
+    margin: 0.5rem 0 1rem 0;
 }
 
-.contact__button:hover {
+.add__product-button:hover {
     background-color: var(--azul-hover);
     transition: 0.5s;
 }
 
 @media screen and (min-width:768px) {
+
+    .add__product-form {
+        margin: 2rem;
+    }
 
     .contact {
         display: flex;
@@ -95,6 +85,17 @@
 }
 
 @media screen and (min-width:1024px) {
+
+
+
+    .add__product-form {
+        max-width: 559px;
+        margin: 4rem;
+    }
+
+    .add__product-title {
+        font-size: 2rem;
+    }
 
     .about {
         display: flex;
